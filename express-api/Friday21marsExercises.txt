@@ -1,0 +1,94 @@
+Övningar
+
+🧩 Lätta Övningar (1-2)
+
+1: Skapa en ny route som returnerar ditt namn:
+
+Endpoint: /api/name
+
+Response:
+{ "name": "Ditt Namn" }
+
+Tips: Använd res.json().
+-------------------------------------------
+2: Skicka en parameter i URL:en:
+
+Endpoint: /api/greet/:name
+
+Exempelanrop: /api/greet/Alice
+
+Response:
+{ "message": "Hej Alice!" }
+
+Tips: Använd req.params.name.
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+🔧 Medelsvåra Övningar (3-4)
+
+3: Gör en GET-route som hämtar data från ett objekt:
+
+Objektet ska innehålla information om några kurser:
+const courses = [
+  { id: 1, name: 'JavaScript Grundkurs' },
+  { id: 2, name: 'Backend med Express' }
+];
+
+Endpoint: /api/courses
+
+Response:
+[
+  { "id": 1, "name": "JavaScript Grundkurs" },
+  { "id": 2, "name": "Backend med Express" }
+]
+-------------------------------------------
+4: POST-request som tar emot data:
+
+Endpoint: /api/add
+
+Metod: POST
+
+Innehåll i body:
+{ "title": "Ny kurs", "description": "Lär dig mer om Express" }
+
+Spara kursen i en array och returnera hela listan.
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+🚀 Svåra Övningar (5-6)
+
+5: Implementera en DELETE-route:
+
+Endpoint: /api/courses/:id
+
+Använd req.params för att hitta kursen med angivet ID och ta bort den.
+
+Returnera den uppdaterade listan.
+-------------------------------------------
+6: Skapa en PUT-route som uppdaterar en kurs:
+
+Endpoint: /api/courses/:id
+
+Metod: PUT
+
+Innehåll i body:
+{ "name": "Uppdaterad kurs" }
+
+Uppdatera kursen med motsvarande ID och returnera den uppdaterade listan.
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+💾 Bonus: Middleware för Loggning
+
+7:Lägg till en middleware som loggar alla inkommande requests:
+app.use((req, res, next) => {
+    console.log(`${req.method} ${req.url}`);
+    next();
+});
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+✅ Reflektion och Avslutning
+Hur känns det att arbeta med Express?
+Vilka utmaningar stötte ni på?
+Hur kan vi utöka API:et för att hantera mer komplex data?
