@@ -1,5 +1,6 @@
 {
   "name": "jsd24-backend-grunder-35yhp-vecka2",
+  "type": "module",
   "version": "1.0.0",
   "description": "* ✅ Vad är ett API?\r * ✅ Vad ska ett API göra?\r * ✅ Klient-server-modellen\r * ✅ Request & Response\r * ✅ HTTP-metoder (GET, POST, PUT, DELETE)\r * ✅ Query och path parameters\r * ✅ Statuskoder\r * ✅ Headers\r   - Grunderna i Express.js",
   "main": "index.js",
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
   }
 }
