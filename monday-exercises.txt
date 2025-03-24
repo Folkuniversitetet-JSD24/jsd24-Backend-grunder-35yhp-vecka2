@@ -28,10 +28,10 @@ Självständiga Övningar
 ---------------------------------------------
 
 🚀 Svåra (3 st):
-1: Implementera ett autentiseringssystem med en header Authorization.
+1: Implementera ett autentiseringssystem med en header Authorization. (Frivillig, middleware kommer vi prata mer om.)
 ---------------------------------------------
 
-2: Bygg en CRUD-app med användare.
+2: Bygg en CRUD-app med användare/husdjur/bilar/tv-spel.
 ---------------------------------------------
 
 3: Lägg till validering av inkommande data.
