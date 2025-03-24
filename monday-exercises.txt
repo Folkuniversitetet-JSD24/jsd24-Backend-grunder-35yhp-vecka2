@@ -1,0 +1,38 @@
+Självständiga Övningar
+
+🧩 Lätta (3 st):
+1: Skapa en route /api/status som returnerar:
+
+{ "status": "OK" }
+
+---------------------------------------------
+2: Skapa en route /api/greet som tar ett namn som query-param och svarar med:
+
+{ "message": "Hej, Alice!" }
+
+---------------------------------------------
+3: Skapa en route /api/echo som returnerar alla headers.
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+🔧 Medel (3 st):
+1: Skapa en PATCH-route för att uppdatera en användare.
+---------------------------------------------
+
+2: Implementera en middleware som loggar alla inkommande requests. (Frivillig, middleware kommer vi prata mer om.)
+---------------------------------------------
+
+3: Skapa en enkel databas i JSON-format och använd den i en GET-route.
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+
+🚀 Svåra (3 st):
+1: Implementera ett autentiseringssystem med en header Authorization.
+---------------------------------------------
+
+2: Bygg en CRUD-app med användare.
+---------------------------------------------
+
+3: Lägg till validering av inkommande data.
+---------------------------------------------
