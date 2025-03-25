@@ -1,0 +1,29 @@
+✏️ Självständiga Övningar
+
+🟢 Lätta Övningar
+Skapa en router-fil för "products" med GET, POST och DELETE.
+
+Lägg till en middleware som loggar varje anrop i konsolen.
+
+Skapa en statusroute (/api/status) som returnerar "Server up and running".
+
+🟠 Medelsvåra Övningar
+Skapa en middleware som validerar POST-anrop och skickar felmeddelande om data saknas.
+
+Implementera en route i "products" som uppdaterar en produkt med PUT.
+
+Lägg till en felhanteringsmiddleware som fångar alla fel och loggar dem.
+
+Implementera en autentiseringsmiddleware som kontrollerar en API-nyckel.
+
+🔴 Svåra Övningar
+Skapa en router för "orders" med full CRUD-funktionalitet.
+
+Implementera middleware som kontrollerar om en användare är inloggad (Mock-autentisering).
+
+Implementera en middleware för rate limiting.
+
+Använd en felhanteringsmiddleware för att fånga alla fel och logga dem till en fil.
+
+Använd CORS-middleware för att tillåta flera domäner.
+--------------------------------------
